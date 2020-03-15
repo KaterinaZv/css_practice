@@ -75,3 +75,12 @@ nav a:not(:last-child){
     margin: 25px 0 0;
     color:#505F98
 }
+
+.promo-section_image {
+    position: absolute;
+    right: -28vw;
+    top: -140px;
+    width: 96vw;
+    z-index: -1;
+
+}
