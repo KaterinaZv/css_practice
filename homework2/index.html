@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yoga shop</title>
+  <link href="./style.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Josefin+Sans|Libre+Baskerville|Prompt|Roboto:400,500,700,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="nav">
+    <img width="100px" src="https://cdn1.flamp.ru/018e95ddb05b67c648d1ffa038a030cc_300_300.jpg" alt="lotus"
+      class="rightpic">
+    <h2>Магазин йога товаров</h2>
+    <p>Звонок по России бесплатный +7(800)3554394</p>
+    <p>C 9 до 19</p>
+    <p>info@dvayoga.ru</p>
+  </header>
+
+  <nav class="nav">
+
+    <a class="nav_a" href="https://dvayoga.ru/o-kompanii">О НАС</a>
+    <a class="nav_a" href="https://dvayoga.ru/">МАГАЗИН</a>
+    <a class="nav_a" href="https://dvayoga.ru/magazin/rasprodazha">АКЦИИ</a>
+
+
+    <select onchange="window.location.href=this.options[this.selectedIndex].value">
+      <option>ВЫБОР БРЕНДА</option>
+      <option value="https://dvayoga.ru/magazin/vendor/agyoga">AGYoga</option>
+      <option value="https://dvayoga.ru/magazin/vendor/art-yogamatic">Art Yogamatic</option>
+      <option value="https://dvayoga.ru/magazin/vendor/devi-yoga">Devi yoga</option>
+      <option value="https://dvayoga.ru/magazin/vendor/ego-yoga">EGOyoga</option>
+      <option value="https://dvayoga.ru/magazin/vendor/flyyoga">FlyYoga</option>
+      <option value="https://dvayoga.ru/magazin/vendor/manduka-1">Manduka</option>
+    </select>
+
+
+  </nav>
+
+  <main>
+    <h3>Каталог</h3>
+    <p class="thumb nav">
+
+      <a href="https://dvayoga.ru/magazin/rasprodazha"><img src="https://dvayoga.ru/d/kovrik_kak_vybrat_natural.jpg"
+          alt="Распродажа" width="250" height="250"></a>
+      <a href=" https://dvayoga.ru/kovriki-dlya-yogi"><img src="https://dvayoga.ru/d/om_1.jpg" alt="Коврики для йоги"
+          width="250" height="250"></a>
+      <a href="https://dvayoga.ru/remni-i-bloki"><img
+          src="https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/82248562_3136344186389258_5697964722750282981_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=102&_nc_ohc=bRP9d9k92-gAX81ypkv&oh=9628227dbd394cf0c633974a5796440c&oe=5ECC8ADC"
+          alt="Ремни и блоки" width="250" height="250"></a>
+      <a href="https://dvayoga.ru/odezhda-dlya-yogi"><img
+          src="https://images.asos-media.com/products/chernyj-kombinezon-nike-yoga-luxe/13357434-1-black?$n_480w$&wid=476&fit=constrain"
+          alt="Одежда для йоги" width="250" height="250"></a>
+    </p>
+
+    <p class="text">
+      Что такое йога. Настоящая Йога - это не лечебная физкультура, не фитнес и не религия. Йога - это уникальный
+      инструмент, направленный в первую очередь на работу с сознанием, при этом физические упражнения - асаны, и
+      дыхательные техники - пранаямы, используются в качестве вспомогательных средств.<Br>
+
+      Основной целью йоги является достижение особого состояния сознания - самадхи. В процессе движения к этой цели
+      человек кардинально меняется, иногда обретает удивительные способности (сиддхи), меняется его отношение к жизни и
+      окружающим его людям.<Br>
+
+      Вместе с тем, сегодня большинство новичков используют лишь отдельные инструменты йоги, чаще всего асаны, для
+      укрепления здоровья, обретения красивой фигуры, достижения психологического равновесия и комфорта. Даже при таком
+      утилитарном применении Йога может:<Br>
+
+      Замедлить процессы старения , восстановить репродуктивную функцию женского организма и потенцию у мужчин.<Br>
+      Укрепить мышцы, увеличить подвижность суставов, нормализовать вес.<Br>
+      Помочь в лечении многих болезней.<Br>
+      Гармонизировать психологическое состояние, избавить от стресса, развить умственные способности и способности
+      концентрации.<Br>
+    </p>
+
+    <form class="poll">
+      <p><b>В какое время суток Вы предпочитаете заниматься йогой?</b></p>
+      <p><input type="radio" name="answer" value="a1">Утром<Br>
+        <input type="radio" name="answer" value="a2">Днем<Br>
+        <input type="radio" name="answer" value="a3">Вечером<Br>
+        <input type="radio" name="answer" value="a3">Вообще не занимаюсь<Br>
+        <p><button>Отправить</button></p>
+    </form>
+
+
+  </main>
+
+  <footer class="comments">
+    <p><textarea rows="5" cols="60" name="text">Написать отзыв</textarea></p>
+    <p><button class="footer_button">+100 к карме</button></p>
+  </footer>
+
+</body>
+
+</html>
